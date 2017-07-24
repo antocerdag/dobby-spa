@@ -6785,7 +6785,7 @@ nav {
 
 .fotoscircle {
   position: relative;
-  top: -90px;
+  top: -121px;
   z-index: 100; }
 
 .tratamientos {
@@ -6793,6 +6793,57 @@ nav {
   width: 100%;
   height: 100%;
   position: relative;
-  top: -276px; }
+  top: -274px; }
+
+.titulo-tratamiento {
+  margin-top: 152px;
+  font-weight: 600;
+  font-size: 17px; }
+
+.bajada-tratamiento {
+  font-weight: 100;
+  margin-top: 20px; }
+
+.cajaread {
+  background-color: #DBBE86;
+  color: white;
+  font-weight: 100;
+  width: 52%;
+  margin-left: 23%;
+  margin-top: 30px;
+  margin-bottom: 40px; }
+
+/* SECCION WELCOME */
+.welcome {
+  background-color: #F4F4F4;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 274px; }
+
+.fotowelcome {
+  width: 136%;
+  border-radius: 8px;
+  margin-top: 62px;
+  margin-bottom: 20px; }
+
+.titulowelcome {
+  margin-top: 7%;
+  font-weight: 100;
+  color: #D96D3F; }
+
+.bajadawelcome {
+  width: 117%;
+  font-weight: 100;
+  font-size: 14px; }
+
+.lista-estrellas {
+  margin-top: 5%;
+  font-size: 14px; }
+  .lista-estrellas li {
+    margin-top: 10px; }
+  .lista-estrellas .fa-star {
+    margin-right: 10px;
+    color: #8D6A56; }
 
 /*# sourceMappingURL=main.css.map */
