@@ -6851,7 +6851,8 @@ nav {
   width: 100%;
   height: 100%;
   position: relative;
-  bottom: 274px; }
+  bottom: 274px;
+  margin-bottom: -274px; }
 
 .titulo-seccion {
   color: #DDBD8A;
@@ -6863,5 +6864,33 @@ nav {
 .fotos-redondeadas {
   width: 150%;
   border-radius: 8px; }
+
+.bajada-footer {
+  color: #DDBD8A;
+  font-size: 12px;
+  font-weight: 100; }
+
+/* FOOTER */
+.color-footer {
+  background-color: #2F1F1F; }
+
+.fa-quote-left {
+  font-size: 89px;
+  color: #DDBD8A; }
+
+.ligth-txt {
+  font-weight: 100;
+  color: #DDBD8A; }
+
+.txt-footer {
+  color: #DDBD8A;
+  font-size: 21px;
+  font-weight: 100; }
+
+.bajada-footer {
+  width: 120%;
+  margin-left: -9%;
+  color: #DDBD8A;
+  font-weight: 100; }
 
 /*# sourceMappingURL=main.css.map */

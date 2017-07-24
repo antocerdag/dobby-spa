@@ -88,6 +88,7 @@ nav{
     height: 100%;
     position: relative;
     bottom: 274px;
+	margin-bottom: -274px;
 }
 
 .titulo-seccion{
@@ -101,4 +102,36 @@ nav{
 .fotos-redondeadas{
 	width: 150%;
     border-radius: 8px;
+}
+
+.bajada-footer{
+	color:#DDBD8A;
+	font-size:12px;
+	font-weight:100;
+}
+/* FOOTER */
+.color-footer{
+	background-color:$color-footer;
+}
+.fa-quote-left{
+	font-size: 89px;
+    color:#DDBD8A;
+}
+.ligth-txt{
+	font-weight:100;
+	color:#DDBD8A;
+}
+.txt-footer{
+	color:#DDBD8A;
+	font-size: 21px;
+    font-weight: 100;
+	
+}
+
+.bajada-footer{
+	width: 120%;
+    margin-left: -9%;
+    color:#DDBD8A;
+    font-weight:100;
+    
 }
