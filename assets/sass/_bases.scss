@@ -81,3 +81,24 @@ nav{
 		color:$color_estrellas;
     }
 }
+
+.about{
+	background-color:$fondo_cafe;
+	width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 274px;
+}
+
+.titulo-seccion{
+	color:#DDBD8A;
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 12%;
+    margin-bottom: 7%;
+}
+
+.fotos-redondeadas{
+	width: 150%;
+    border-radius: 8px;
+}
