@@ -6780,6 +6780,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 nav {
   background-color: #2F1F1F; }
 
+nav {
+  width: 100%;
+  text-align: center; }
+  nav > li {
+    float: none;
+    display: inline-block; }
+
 .txt-nav:hover {
   color: #E9E0B7; }
 
@@ -6788,12 +6795,15 @@ nav {
   top: -121px;
   z-index: 100; }
 
+img.fondo-circular {
+  border: 9px solid #DBBE86; }
+
 .tratamientos {
   background-color: #E9E0B7;
   width: 100%;
   height: 100%;
   position: relative;
-  top: -274px; }
+  top: -292px; }
 
 .titulo-tratamiento {
   margin-top: 152px;
@@ -6819,7 +6829,7 @@ nav {
   width: 100%;
   height: 100%;
   position: relative;
-  bottom: 274px; }
+  bottom: 294px; }
 
 .fotowelcome {
   width: 136%;
@@ -6851,7 +6861,7 @@ nav {
   width: 100%;
   height: 100%;
   position: relative;
-  bottom: 274px;
+  bottom: 294px;
   margin-bottom: -274px; }
 
 .titulo-seccion {
@@ -6871,6 +6881,10 @@ nav {
   font-weight: 100; }
 
 /* FOOTER */
+footer {
+  position: relative;
+  bottom: 20px; }
+
 .color-footer {
   background-color: #2F1F1F; }
 
